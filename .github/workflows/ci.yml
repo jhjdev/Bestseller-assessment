@@ -355,7 +355,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 📦 Download build artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         continue-on-error: true
         id: download-artifacts
         with:
@@ -406,7 +406,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 📦 Download build artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         continue-on-error: true
         id: download-artifacts-prod
         with:
